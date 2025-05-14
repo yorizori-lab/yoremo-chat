@@ -81,7 +81,7 @@ if 'messages' not in st.session_state:
     st.session_state.messages = []
 
 # Spring Boot 서버 URL
-SPRING_API_URL = "http://localhost:8080/api/v1/chat/message"
+SPRING_API_URL = "http://localhost:8080/api/chat/v1/message"
 
 # 사이드바 구성
 with st.sidebar:
